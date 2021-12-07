@@ -138,10 +138,10 @@ Router.post("/register", function (req, res) {
                 const otpNumber = (Math.floor(Math.random() * 900000) + 100000).toString();
 
                 const mailOption = {
-                    from: 'WEBCTT2 <minhthevo123@gmail.com>',
+                    from: 'WEBTT <lehoangtuan425@gmail.com>',
                     to: email,
                     subject: 'Authenticte message',
-                    text: 'Hello form WEBCTT2',
+                    text: 'Hello form WEBTT',
                     html: `<h2>This is your OTP number: <b>${otpNumber}</b></h2>`
                 };
 

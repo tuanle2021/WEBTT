@@ -1,12 +1,12 @@
 {
-  "name": "webctt2",
+  "name": "webtt",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "author": "Võ Thế Minh",
+  "author": "Le Hoang Tuan",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

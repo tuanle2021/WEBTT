@@ -1,3 +1,3 @@
 module.exports = {
-    MongoLocal: 'mongodb://localhost/WEBCTT2'
+    MongoLocal: 'mongodb://localhost/TACA'
 }
