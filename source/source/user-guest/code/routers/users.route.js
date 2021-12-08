@@ -123,10 +123,10 @@ Router.post("/register", function (req, res) {
         ).toString();
 
         const mailOption = {
-          from: "WEBCTT2 <lehoangtuan425@gmail.com>",
+          from: "TACA <lehoangtuan425@gmail.com>",
           to: email,
           subject: "Authenticte message",
-          text: "Hello form WEBTT",
+          text: "Hello form TACA",
           html: `<h2>This is your OTP number: <b>${otpNumber}</b></h2>`,
         };
 
