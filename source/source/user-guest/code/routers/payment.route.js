@@ -66,7 +66,7 @@ Router.post('/:nameCourse/checkout', ensureAuthenticated, async (req, res) => {
                 currency: "USD",
                 total: course.tuition,
             },
-            description: "Thanh toán khóa học online của Minh Võ Store",
+            description: "Thanh toán khóa học online trên TACA",
         }, ],
     };
     paypal.payment.create(create_payment_json, function (error, payment) {
